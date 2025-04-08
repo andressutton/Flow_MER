@@ -10,4 +10,5 @@ matplotlib
 mapclassify
 odc-geo[all]
 odc-stac[all]
+odc-algo[all]
 pystac-client
