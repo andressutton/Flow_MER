@@ -103,7 +103,7 @@ controls = applier.ApplierControls()
 controls.setWindowXsize(512)
 controls.setWindowYsize(512)
 controls.setStatsIgnore(255)
-controls.setReferenceImage(infiles.we_list[25])
+controls.setReferenceImage(infiles.we_list[25]) #Change number accordingly depending on the number of files in your directory, this setting is needed when there are inundation maps with different grids
 controls.setCalcStats(True)
 controls.setOutputDriverName("GTiff")
 controls.setLayerNames(['Duration','Start_date'])
