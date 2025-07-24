@@ -17,7 +17,7 @@ from collections import OrderedDict
 
 def get_inund_metrics(info, inputs, outputs, otherargs):
 """
-This function calculates inundation duration and date of start (in number of days since start of the water year) from a stack of inundation images
+This function calculates longest inundation period duration and date of start (in number of days since start of the water year) from a stack of inundation images
 """
     
     stack = np.array(inputs.we_list).astype(np.float32)
