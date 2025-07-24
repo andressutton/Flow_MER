@@ -46,7 +46,7 @@ This function calculates inundation duration and date of start (in number of day
                                         month=int(str(x)[4:6]), day=int(str(x)[6:8]))
                                         for x in dateList])
                                         
-    time_delta = wet_stack_dates - datetime.date(2022, month = 7, day= 1)
+    time_delta = wet_stack_dates - datetime.date(2022, month = 7, day= 1) #change year according to input data
     
     times = np.array([td.days for td in time_delta])
     
