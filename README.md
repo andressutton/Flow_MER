@@ -15,6 +15,6 @@ metrics (longest inundation period duration -in number of days- and date of star
 
 ## Local scripts
 These are Python scripts for processing inundation maps (i.e., raster images with pixel values 1=water, 0=dry). Examples in this folder include code to
-extract and plot time series water extent (%) in sites of interest; process single date inundation maps into annual maximum extent or annual inundation dynamic
+extract and plot time series water extent (%) for sites of interest; process single date inundation maps into annual maximum extent or annual inundation dynamic
 metrics (longest inundation period duration -in number of days- and date of start -in number of days since start of the water year-) and extract these data for
 areas of interest.
