@@ -4,6 +4,9 @@ This is a collection of notebooks and scripts for processing and analysing remot
 ## DEA notebooks
 These are Jupyter notebooks that run in Digital Earth Australia's (DEA) **[Sandbox Environment](https://app.sandbox.dea.ga.gov.au/)**. 
 
+-[LS_annuallmax_waterextemt.ipynb](https://github.com/andressutton/Flow_MER/blob/main/DEA_notebooks/S2_water_extent.ipynb) Create annual maximum water 
+extent maps for from Landsat surface reflectance using a Water Index.
+
 -[S2_annual_metrics.ipynb](https://github.com/andressutton/Flow_MER/blob/main/DEA_notebooks/S2_annual_metrics.ipynb): Creates a raster of annual inundation dynamic 
 metrics (longest inundation period duration -in number of days- and date of start -in number of days since start of the water year-) from Sentinel-2 surface 
 reflectance data using a Water Index. 
@@ -20,7 +23,7 @@ metrics (longest inundation period duration -in number of days- and date of star
 data using a Water Index.
 
 -[LS_seasonalmax_waterextemt.ipynb](https://github.com/andressutton/Flow_MER/blob/main/Local_notebooks/LS_seasonalmax_waterextemt.ipynb): Create seasonal maximum water 
-extent maps for from Landsar surface reflectance using a Water Index.
+extent maps for from Landsat surface reflectance using a Water Index.
 
 ## Local scripts
 These are Python scripts for processing inundation maps (i.e., raster images with pixel values 1=water, 0=dry). 
