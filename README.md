@@ -15,7 +15,7 @@ reflectance data using a Water Index.
 from Sentinel-2 surface reflectance using a Water Index.
 
 ## Local notebooks
-These are Jupyter notebooks that can be un locally, in Github Codespaces (requirements.txt file in this repository has the environment requirements to run 
+These are Jupyter notebooks that can be run locally, in Github Codespaces (requirements.txt file in this repository has the environment requirements to run 
 the notebooks), Google Colab, etc. 
 
 -[LS_annual_metrics.ipynb](https://github.com/andressutton/Flow_MER/blob/main/Local_notebooks/LS_annual_metrics.ipynb): Creates a raster of annual inundation dynamic 
